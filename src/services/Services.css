@@ -1,0 +1,32 @@
+.service__item{
+  padding: 20px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.1s;
+}
+.service__item:hover{
+  filter: grayscale(0%);
+}
+
+h1{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  .service__item{
+    padding: 10px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .service__item{
+    padding: 20px;
+  }
+}

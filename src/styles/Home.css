@@ -1,0 +1,132 @@
+.hero__section{
+  background-image: url(../assets/images/hero-bg.gif);
+  background-size: cover;
+  height: 100%;
+}
+
+.hero__section h2{
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.hero__section P{
+  color: #fff;
+  line-height: 28px;
+}
+
+.hero__section p:nth-child(1){
+  font-weight: 500;
+}
+
+.buy__btn{
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: var(--main-color-1);
+  color: var(--main-color-3);
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.buy__btn a:hover{
+  color: var(--main-color-4);
+}
+
+.hero__content{
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 45px;
+}
+
+.timer__count{
+  position: relative;
+  top: 0;
+  right: 0;
+  background: var(--main-color-1);
+  height: 350px;
+  transform: skewY(356deg);
+  overflow: hidden;
+}
+
+.count__down-col{
+  transform: skewY(4deg);
+  color: var(--main-color-3);
+}
+
+.timer__count img{
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  width: 250px;
+  object-fit: contain;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  transform: skewY(4deg);
+}
+
+.store__btn{
+  background: var(--main-color-3);
+  color: #fff;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__section h2{
+    font-size: 2rem;
+  }
+  .section__title{
+    font-size: 1.7rem;
+  }
+  .counter__img{
+    display: none ;
+  }
+  .clock__top-content{
+    text-align: center;
+  }
+
+  .clock__top-content h4{
+    font-size: 0.9rem !important;
+  }
+
+  .clock__top-content h3{
+    font-size: 1rem !important;
+  }
+
+  .count__down-col{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__section h2{
+    font-size: 1.6rem;
+  }
+  
+  .hero__content p{
+    font-size: 0.9rem;
+  }
+
+  .buy__btn a{
+    font-size: 0.9rem;
+  }
+
+  .section__title{
+    font-size: 1.4rem;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content{
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+}
