@@ -13,7 +13,7 @@ const Clock = () => {
 
   const countDown = () => {
     
-    const destination = new Date('Mar 1,2024').getTime()
+    const destination = new Date('May 1,2024').getTime()
 
     interval = setInterval(() => {
 
@@ -39,7 +39,7 @@ const Clock = () => {
   
   useEffect(() => {
     countDown()
-  },[])
+  },)
 
 
   return ( <div className='clock__wrapper d-flex align-items-center gap-3'>

@@ -82,7 +82,7 @@ const Signup = () => {
                   <l-dot-spinner
                     size="40"
                     speed="0.9" 
-                    color="black" 
+                    color="orange" 
                   ></l-dot-spinner>
                 </Col>
               ):(

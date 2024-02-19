@@ -19,6 +19,7 @@
     "react-toastify": "^10.0.4",
     "reactstrap": "^9.1.4",
     "remixicon": "^2.5.0",
+    "sharp": "^0.33.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
